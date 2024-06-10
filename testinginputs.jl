@@ -10,7 +10,7 @@ Makie.inline!(false)
 #overview(nuc)
 
 nuc = Skyrmion( [40, 40, 40], [0.2, 0.2, 0.2], mpi = 1.0, Fpi=186, ee=4.0, boundary_conditions="periodic")
-
+print(nuc.metric)
 
 overview(nuc)
 
